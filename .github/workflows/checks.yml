@@ -24,4 +24,4 @@ jobs:
         run: docker compose run --rm api sh -c "python src/drf_recipe_api/manage.py test"
 
       - name: Lint
-        run: docker compose run --rm api sh -c "flake8"
+        run: docker compose run --rm api sh -c "cd src/drf_recipe_api && flake8"
