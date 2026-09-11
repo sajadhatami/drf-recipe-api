@@ -30,5 +30,3 @@ ENV PATH="/app/.venv/bin:$PATH"
 USER django-user
 
 EXPOSE 8000
-
-# CMD ["python", "src/drf_recipe_api/manage.py", "runserver", "0.0.0.0:8000"]

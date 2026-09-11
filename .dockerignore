@@ -15,3 +15,4 @@ venv/
 # Docker
 Dockerfile
 compose.yaml
+

@@ -9,4 +9,4 @@ services:
     volumes:
       - ./src:/app/src
     command: >
-      sh -c "python src/drf_recipe_api/manage.py runserver 0.0.0.0:8000"    
+      sh -c "python src/drf_recipe_api/manage.py runserver 0.0.0.0:8000"
