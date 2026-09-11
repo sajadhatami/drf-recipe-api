@@ -1,0 +1,18 @@
+.git
+.gitignore
+
+.docker
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env/
+.venv/
+venv/
+
+# Docker
+Dockerfile
+compose.yaml
+
