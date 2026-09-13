@@ -12,6 +12,7 @@ dependencies = [
     "django-filter>=26.1",
     "djangorestframework>=3.18.1",
     "markdown>=3.10.3",
+    "psycopg[binary]>=3.3.5",
 ]
 
 [project.scripts]
