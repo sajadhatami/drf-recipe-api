@@ -27,6 +27,6 @@ RUN adduser \
 
 ENV PATH="/app/.venv/bin:$PATH"
 
-USER django-user
+#USER django-user
 
 EXPOSE 8000
